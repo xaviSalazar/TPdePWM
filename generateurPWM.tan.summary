@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.399 ns
+From           : counter_PWM[1]
+To             : PWMOut
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.767 ns
+From           : DUTY_CYCLE_SWs[3]
+To             : PWMOut
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 420.17 MHz ( period = 2.380 ns )
+From           : counter_PWM[0]
+To             : counter_PWM[2]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
